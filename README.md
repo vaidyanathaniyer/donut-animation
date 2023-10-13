@@ -23,14 +23,14 @@ A Python project that showcases a mesmerizing rotating donut animation using obj
 - [📂 Repository Structure](#-repository-structure)
 - [⚙️ Modules](#-modules)
 - [📚 Object-Oriented Programming Concepts](#-object-oriented-programming-concepts)
-- [🍩 How Does donut-animation.py Work?](#-how-does-the-donut-animation-work?)
+- [🍩 How Does donut-animation.py Work?](#-how-does-donut-animationpy-work)
 - [🚀 Getting Started](#-getting-started)
-  - ["How to Install Python and Visual Studio Code on Windows or macOS"](#-how-to-install-python-and-vscode-on-windows-or-macos)
-  - ["How to Fork a GitHub Project and Open it in Visual Studio Code"](#-how-to-fork-a-github-project-and-open-it-in-vscode)
-  - ["Running the Python Script in Visual Studio Code"](#-running-the-python-script-in-vscode)
+  - ["How to Install Python and Visual Studio Code on Windows or macOS"](#how-to-install-python-and-visual-studio-code-on-windows-or-macos)
+  - ["How to Fork a GitHub Project and Open it in Visual Studio Code"](#how-to-fork-a-github-project-and-open-it-in-visual-studio-code)
+  - ["Running the Python Script in Visual Studio Code"](#running-the-python-script-in-visual-studio-code)
 - [🤝 Contributing](#-contributing)
-- [ 📄 License](#-license)
-- [ 👏 Acknowledgments](#-acknowledgments)
+- [📄 License](#-license)
+- [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
