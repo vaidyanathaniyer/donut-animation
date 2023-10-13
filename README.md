@@ -27,7 +27,7 @@ Click the image above to play the video.
 - [📍 Overview](#-overview)
 - [📦 Features](#-features)
 - [📂 Repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
+- [⚙️ Modules](#-modules)
 - [📚 Object-Oriented Programming Concepts](#-object-oriented-programming-concepts)
 - [🍩 How Does donut-animation.py Work?](#-how-does-donut-animationpy-work)
 - [🚀 Getting Started](#-getting-started)
