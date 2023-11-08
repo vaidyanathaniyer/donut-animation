@@ -48,29 +48,17 @@ This mesmerizing rotating donut animation project is a captivating demonstration
 
 ## 📦 Features
 
-### Adherence to Object-Oriented Principles 🧬
+* 🧬 **Adherence to Object-Oriented Principles**: The project follows object-oriented principles to create a robust structure. The Donut class encapsulates the donut's animation state, and the TerminalRenderer class is responsible for rendering it in the terminal. This design promotes code organization and maintainability.
 
-The project follows object-oriented principles to create a robust structure. The Donut class encapsulates the donut's animation state, and the TerminalRenderer class is responsible for rendering it in the terminal. This design promotes code organization and maintainability.
+* 🧩 **Modular and Extensible**: The project is highly modular and extensible. Both the Donut and TerminalRenderer classes are designed to be easily extended, enabling the addition of new features like unique animation patterns or rendering effects. Furthermore, the project's architecture can be expanded to support various output formats, such as GUI windows or web pages.
 
-### Modular and Extensible 🧩
+* ⏱️ **Improved Frame Rate Control**: To ensure smooth animation, the project employs a fixed frame rate. The `FRAME_RATE` constant can be adjusted to control the animation speed according to your preferences.
 
-The project is highly modular and extensible. Both the Donut and TerminalRenderer classes are designed to be easily extended, enabling the addition of new features like unique animation patterns or rendering effects. Furthermore, the project's architecture can be expanded to support various output formats, such as GUI windows or web pages.
+* 🚧 **Error Handling**: Error handling is a priority in this project. For example, if the terminal encounters difficulties in clearing, the program gracefully continues running and provides a helpful message in the console.
 
-### Improved Frame Rate Control ⏱️
+* ⚙️ **Configuration and Settings**: Users have the flexibility to configure the animation speed and the symbols used for rendering. These settings can be easily customized within the source code to cater to individual preferences.
 
-To ensure smooth animation, the project employs a fixed frame rate. The `FRAME_RATE` constant can be adjusted to control the animation speed according to your preferences.
-
-### Error Handling 🚧
-
-Error handling is a priority in this project. For example, if the terminal encounters difficulties in clearing, the program gracefully continues running and provides a helpful message in the console.
-
-### Configuration and Settings ⚙️
-
-Users have the flexibility to configure the animation speed and the symbols used for rendering. These settings can be easily customized within the source code to cater to individual preferences.
-
-### Customization 🎨
-
-The project is highly customizable, allowing users to modify the animation's appearance. You can change rendering symbols, adjust the donut's size, or even alter the background color to make the animation uniquely yours.
+* 🎨 **Customization**: The project is highly customizable, allowing users to modify the animation's appearance. You can change rendering symbols, adjust the donut's size, or even alter the background color to make the animation uniquely yours.
 
 ---
 
@@ -100,33 +88,19 @@ The project is highly customizable, allowing users to modify the animation's app
 
 ## 📚 Object-Oriented Programming Concepts
 
-### Classes and Objects 🧩
+* 🧩 **Classes and Objects**: The code defines two classes, Donut 🍩 and TerminalRenderer 🖥️, each representing a distinct aspect of the program. Objects of these classes are created within the `main()` function. This separation of functionality into classes allows for better organization and isolation of code.
 
-The code defines two classes, Donut 🍩 and TerminalRenderer 🖥️, each representing a distinct aspect of the program. Objects of these classes are created within the `main()` function. This separation of functionality into classes allows for better organization and isolation of code.
+* 🔒 **Encapsulation**: Both the Donut 🍩 and TerminalRenderer 🖥️ classes encapsulate their data and methods. The Donut class encapsulates the animation parameters A and B and the method `update` to manipulate these parameters. The TerminalRenderer class encapsulates the rendering logic, screen buffer, and depth buffer. Encapsulation helps maintain data integrity and prevents unintended modifications from outside the class.
 
-### Encapsulation 🔒
+* 🏗️ **Initialization and Constructors**: Each class has an `__init__` method, which serves as a constructor. It initializes the object's attributes. For example, the Donut class initializes A and B, while the TerminalRenderer class initializes screen and z-buffer.
 
-Both the Donut 🍩 and TerminalRenderer 🖥️ classes encapsulate their data and methods. The Donut class encapsulates the animation parameters A and B and the method `update` to manipulate these parameters. The TerminalRenderer class encapsulates the rendering logic, screen buffer, and depth buffer. Encapsulation helps maintain data integrity and prevents unintended modifications from outside the class.
+* 🧰 **Methods**: Both classes have methods that encapsulate specific functionality. The `update` method in the Donut class updates the donut's orientation angles, and the `render` method in the TerminalRenderer class handles rendering the donut animation in the terminal.
 
-### Initialization and Constructors 🏗️
+* 📝 **Attributes**: The Donut and TerminalRenderer classes define attributes that store data specific to their roles. For instance, `width` and `height` in TerminalRenderer store the dimensions of the terminal window.
 
-Each class has an `__init__` method, which serves as a constructor. It initializes the object's attributes. For example, the Donut class initializes A and B, while the TerminalRenderer class initializes screen and z-buffer.
+* 🔄 **Modularity and Reusability**: The use of classes and methods enhances modularity and code reusability. The Donut and TerminalRenderer classes can be used in other projects without needing to duplicate the code.
 
-### Methods 🧰
-
-Both classes have methods that encapsulate specific functionality. The `update` method in the Donut class updates the donut's orientation angles, and the `render` method in the TerminalRenderer class handles rendering the donut animation in the terminal.
-
-### Attributes 📝
-
-The Donut and TerminalRenderer classes define attributes that store data specific to their roles. For instance, `width` and `height` in TerminalRenderer store the dimensions of the terminal window.
-
-### Modularity and Reusability 🔄
-
-The use of classes and methods enhances modularity and code reusability. The Donut and TerminalRenderer classes can be used in other projects without needing to duplicate the code.
-
-### Separation of Concerns 🎯
-
-The Donut class focuses on the animation logic, and the TerminalRenderer class is responsible for rendering. This separation of concerns follows the Single Responsibility Principle (SRP) of OOP.
+* 🎯 **Separation of Concerns**: The Donut class focuses on the animation logic, and the TerminalRenderer class is responsible for rendering. This separation of concerns follows the Single Responsibility Principle (SRP) of OOP.
 
 ---
 
@@ -143,7 +117,6 @@ The rotation of the donut is controlled by the A and B attributes of the Donut o
 ---
 
 ## 🚀 Getting Started
-
 ### How to Install Python and Visual Studio Code on Windows or macOS:
 
 #### For Windows:
@@ -159,11 +132,13 @@ The rotation of the donut is controlled by the A and B attributes of the Donut o
 - 💻 To install Python on macOS, it is recommended to use the Homebrew package manager. If you don't have Homebrew, you can install it by following the instructions at [brew.sh](https://brew.sh/).
 - 🍺 After installing Homebrew, run the following command to install Python: `brew install python`.
 
-### Installing Visual Studio Code:
+#### Installing Visual Studio Code:
 
 - 🌐 Visit the [Visual Studio Code official website](https://code.visualstudio.com/).
 - 📥 Download the installer for Windows or macOS.
 - 🏁 Run the installer and follow the on-screen instructions to complete the installation.
+
+<br>
 
 ### How to Fork a GitHub Project and Open It in Visual Studio Code:
 
@@ -173,7 +148,7 @@ The rotation of the donut is controlled by the A and B attributes of the Donut o
 - 🔗 Click on the forked repository to open it.
 - 🟢 Click the "Code" button and copy the URL of the repository (e.g., `https://github.com/your-username/donut-animation.git`).
 
-### Using Visual Studio Code:
+#### Using Visual Studio Code:
 
 - 🚀 Open Visual Studio Code.
 - 🧩 Click on the "Extensions" icon on the left sidebar (or press `Ctrl+Shift+X` on Windows/Linux or `Cmd+Shift+X` on macOS).
@@ -182,6 +157,8 @@ The rotation of the donut is controlled by the A and B attributes of the Donut o
 - 📂 Click the "Clone Repository" button.
 - 📋 Paste the URL of your forked repository and choose a local directory where you want to clone the repository.
 - 📂 Open the cloned repository in Visual Studio Code.
+
+<br>
 
 ### Running the Python Script in Visual Studio Code:
 
@@ -193,6 +170,8 @@ The rotation of the donut is controlled by the A and B attributes of the Donut o
   `python donut-animation.py`
 
 - 🎉 The script will execute, and you will see the rotating donut animation in the terminal.
+
+<br>
 
 🎉 That's it! You've successfully installed Python and Visual Studio Code, forked a GitHub repository, and run the Python script using Visual Studio Code's terminal. Enjoy the donut animation!
 
