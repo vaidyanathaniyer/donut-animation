@@ -3,7 +3,7 @@
 A Python project that showcases a mesmerizing rotating donut animation using object-oriented programming principles, inspired by Andy Sloane's original C implementation.
 <br><br>
 
-[![Video Preview](donut-animation.png)](https://drive.google.com/file/d/103gciOKSiq67wH-ZFcU8JBxo3aFAhN5O/view?usp=sharing)
+[![Video Preview](./assests/donut-animation.png)](https://drive.google.com/file/d/103gciOKSiq67wH-ZFcU8JBxo3aFAhN5O/view?usp=sharing)
 
 Click the image above to play the video.
 <br><br>
